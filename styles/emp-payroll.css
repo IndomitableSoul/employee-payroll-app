@@ -1,0 +1,30 @@
+/* UC-1 */
+body{
+    margin: 0;
+    height: 100%;
+}
+*{box-sizing:border-box;}
+.header{
+    background-color: hsl(0, 0%, 92%);
+    padding: 10px;
+}
+.header-content{
+    display: flex;
+    flex-flow: row;
+    justify-content: left;
+    align-items: center;
+    border: 0px solid green;
+}
+.logo-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.emp-text{
+    font: normal normal bold 20px/22px Roboto;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #82a70c;
+}
+.emp-payroll{color: #42515f; display: block;}
