@@ -115,3 +115,16 @@ label{
     border-radius: 100%;
     margin-left: 12px;
 }
+
+/* UC-5 */
+select{
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font: normal normal normal 14px Roboto;
+    letter-spacing: 1px;
+    color   : #42515f;
+    background-color: transparent;
+    height: 25px;
+}
